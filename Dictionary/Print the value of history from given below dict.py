@@ -1,0 +1,10 @@
+Test={
+    "class":{
+        "student":{
+            "name":"Mike","marks":{
+                "pyhsics":50,"history":90
+            }
+        }
+    }
+}
+print(test["class"]["student"]["marks"]["history"])
